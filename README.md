@@ -103,26 +103,22 @@ Irvin gave a very interesting talk on L2's. Check out his paper on [SVM Rollups]
 Note: Thank you instructors from [Solana Turbine](https://x.com/solanaturbine) -> [japarjam](https://x.com/japarjam), [Berg](https://x.com/bergabman), Nate, Dean, all the colleagues in the cohort and Joe from Anza! 
 
 References / Further Deep Dive:
-[SVM API](https://www.anza.xyz/blog/anzas-new-svm-api)
-[Modular SVM repo](https://github.com/buffalojoec/modular-svm)
-
-[Solana Consensus](https://www.youtube.com/watch?v=StDx4VhZIVk)
-
-[SVM Community Call on Interoperability](https://youtu.be/2nbY6clDKIY?si=C8JH5GbI_-qx0jPt)
-
+- [SVM API](https://www.anza.xyz/blog/anzas-new-svm-api)
+- [Modular SVM repo](https://github.com/buffalojoec/modular-svm)
+- [Solana Consensus](https://www.youtube.com/watch?v=StDx4VhZIVk)
+- [SVM Community Call on Interoperability](https://youtu.be/2nbY6clDKIY?si=C8JH5GbI_-qx0jPt)
 PR's for interesting SIMDs:
 - https://github.com/solana-foundation/solana-improvement-documents/pull/161
 - https://github.com/solana-foundation/solana-improvement-documents/pull/162
 - https://github.com/solana-foundation/solana-improvement-documents/pull/163
 - https://github.com/solana-foundation/solana-improvement-documents/pull/64
-
+->
 - https://github.com/solana-labs/solana/issues/34196
 - https://github.com/anza-xyz/agave/issues/389
-
 Runtime Docs:
 - https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/programs.md
 - https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/sysvars.md
-
+->
 - https://docs.optimism.io/stack/explainer
 - https://lightning.network/docs/
 - https://dev.risczero.com/api/getting-started
@@ -130,6 +126,6 @@ Runtime Docs:
 - https://termina.gitbook.io/documentation
 - https://mystenlabs.com/blog/announcing-walrus-a-decentralized-storage-and-data-availability-protocol
 - https://github.com/MystenLabs/example-walrus-sites
-
+->
 - https://github.com/Sovereign-Labs/sovereign-sdk/blob/nightly/rollup-interface/specs/overview.md
 - https://sovereign.mirror.xyz/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA
