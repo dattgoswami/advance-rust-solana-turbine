@@ -39,13 +39,10 @@ removing unwrap_or and using map_or instead:
         .map_or(true, |program_account| *program_account.get_owner() != bpf_loader_deprecated::id())
 ```
 Looked at some of the PRs in the Agave / Solana Labs codebase to find some that might be relevant to runtime / invoke context:
-i) https://github.com/anza-xyz/agave/pull/1180
-
-ii) https://github.com/anza-xyz/agave/pull/180
-
-iii) https://github.com/solana-labs/solana/issues/34057
-
-iv) https://github.com/anza-xyz/agave/pull/2441/files
+- https://github.com/anza-xyz/agave/pull/1180
+- https://github.com/anza-xyz/agave/pull/180
+- https://github.com/solana-labs/solana/issues/34057
+- https://github.com/anza-xyz/agave/pull/2441/files
 
 Solana programs are compiled to BPF bytecode, the `bpf_loader/src/lib.rs` its `load_program_from_bytes` [method](https://github.com/anza-xyz/agave/blob/a10cd5548d2e21d10b3e43a52af2684333425f26/programs/bpf_loader/src/lib.rs#L63) loads this byte code
 
@@ -114,25 +111,25 @@ References / Further Deep Dive:
 [SVM Community Call on Interoperability](https://youtu.be/2nbY6clDKIY?si=C8JH5GbI_-qx0jPt)
 
 PR's for interesting SIMDs:
-https://github.com/solana-foundation/solana-improvement-documents/pull/161
-https://github.com/solana-foundation/solana-improvement-documents/pull/162
-https://github.com/solana-foundation/solana-improvement-documents/pull/163
-https://github.com/solana-foundation/solana-improvement-documents/pull/64
+- https://github.com/solana-foundation/solana-improvement-documents/pull/161
+- https://github.com/solana-foundation/solana-improvement-documents/pull/162
+- https://github.com/solana-foundation/solana-improvement-documents/pull/163
+- https://github.com/solana-foundation/solana-improvement-documents/pull/64
 
-https://github.com/solana-labs/solana/issues/34196
-https://github.com/anza-xyz/agave/issues/389
+- https://github.com/solana-labs/solana/issues/34196
+- https://github.com/anza-xyz/agave/issues/389
 
 Runtime Docs:
-https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/programs.md
-https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/sysvars.md
+- https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/programs.md
+- https://github.com/anza-xyz/agave/blob/master/docs/src/runtime/sysvars.md
 
-https://docs.optimism.io/stack/explainer
-https://lightning.network/docs/
-https://dev.risczero.com/api/getting-started
-https://docs.spicenet.io/
-https://termina.gitbook.io/documentation
-https://mystenlabs.com/blog/announcing-walrus-a-decentralized-storage-and-data-availability-protocol
-https://github.com/MystenLabs/example-walrus-sites
+- https://docs.optimism.io/stack/explainer
+- https://lightning.network/docs/
+- https://dev.risczero.com/api/getting-started
+- https://docs.spicenet.io/
+- https://termina.gitbook.io/documentation
+- https://mystenlabs.com/blog/announcing-walrus-a-decentralized-storage-and-data-availability-protocol
+- https://github.com/MystenLabs/example-walrus-sites
 
-https://github.com/Sovereign-Labs/sovereign-sdk/blob/nightly/rollup-interface/specs/overview.md
-https://sovereign.mirror.xyz/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA
+- https://github.com/Sovereign-Labs/sovereign-sdk/blob/nightly/rollup-interface/specs/overview.md
+- https://sovereign.mirror.xyz/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA
