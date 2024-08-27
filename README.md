@@ -69,7 +69,7 @@ https://metrics.solana.com/d/UpIWbId4k/ping-result
 ## Week 3 - SVM API & Building our own L2 (Rollup that uses SVM for execution)
 
 There was this example of state channels [Paytube](https://github.com/buffalojoec/paytube) that we were independently looking into. The image in the README is important and the tests in this were particularly helpful.
-Also, this article by Joe lays out the detail of the [runtime](https://fluff-ranunculus-275.notion.site/The-Agave-Runtime-d1f8d3608e5d4529b120e09e80b48887) very well. I'd recommend that everyone should check it out.
+Also, this article by Joe lays out the detail of the [runtime](https://fluff-ranunculus-275.notion.site/The-Agave-Runtime-d1f8d3608e5d4529b120e09e80b48887) very well. I'd recommend that everyone should check it out. Especially the section Runtime Overview > Updating State as Processing Transactions, Sysvars would come in handy for working with the SVM API and having SVM execution for L2, the Program Runtime Overview as Program Cache storing ELF's to avoid recompilation resources is neat, eBPF VM, Syscalls, and Runtime Caveats > Builtin Programs.
 
 [Mollusk](https://github.com/buffalojoec/mollusk) is a minimal version of Paytube, where in a program execution pipeline is provisioned of the lower-level SVM components. Its just calling `process_instructions` (processing instructions) using BPF Loader.  
 
