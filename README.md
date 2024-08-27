@@ -107,7 +107,7 @@ References / Further Deep Dive:
 - [Modular SVM repo](https://github.com/buffalojoec/modular-svm)
 - [Solana Consensus](https://www.youtube.com/watch?v=StDx4VhZIVk)
 - [SVM Community Call on Interoperability](https://youtu.be/2nbY6clDKIY?si=C8JH5GbI_-qx0jPt)
-- PR's for interesting SIMDs:
+- PR's for interesting SIMDs shared by Joe & Dean:
 - https://github.com/solana-foundation/solana-improvement-documents/pull/161
 - https://github.com/solana-foundation/solana-improvement-documents/pull/162
 - https://github.com/solana-foundation/solana-improvement-documents/pull/163
