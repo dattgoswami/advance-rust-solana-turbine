@@ -53,7 +53,7 @@ Also, compared the codebase of Agave, Rakurai & the Solana Labs client.
 
 ## Week 2 - [ReplayStage](https://github.com/anza-xyz/agave/blob/master/core/src/replay_stage.rs)
 [Replay Stage Notes](https://github.com/dattgoswami/solana-notes/blob/main/replay_stage.md)
-Watched Justin Starry's video from the Artisan cohort from Q2, 2024. [TVU - Transaction Validation Unit](https://docs.solanalabs.com/validator/tvu) uses the Replay Stage. There were two groups one was looking into optimizing the [main replay loop]((https://github.com/anza-xyz/agave/blob/a10cd5548d2e21d10b3e43a52af2684333425f26/core/src/replay_stage.rs#L654) and optimizing using dash map (instead of hash map) and in the other one we were looking into metrics with Ernest, Jack, Nate, Tim.
+Watched Justin Starry's video from the Artisan cohort from Q2, 2024. [TVU - Transaction Validation Unit](https://docs.solanalabs.com/validator/tvu) uses the Replay Stage. There were two groups one was looking into optimizing the [main replay loop](https://github.com/anza-xyz/agave/blob/a10cd5548d2e21d10b3e43a52af2684333425f26/core/src/replay_stage.rs#L654) and optimizing using dash map (instead of hash map) and in the other one we were looking into metrics with Ernest, Jack, Nate, Tim.
 
 In specific the [measure](https://github.com/anza-xyz/agave/tree/master/measure) and [metrics](https://github.com/anza-xyz/agave/tree/master/metrics).
 `measure.rs` is where the timing related utilities reside [measure.rs](https://github.com/anza-xyz/agave/blob/master/measure/src/measure.rs)
