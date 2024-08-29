@@ -106,7 +106,7 @@ We decided to use:
 ### Irvin gave a very interesting talk on L2's. Check out his paper on [SVM Rollups](https://arxiv.org/abs/2405.08882) .
 
 ### Gabriele from MagicBlock gave an awesome demo / session on Ephemeral Rollups - taking SVM to the edge
-- [MagicBlock Engine Example](https://github.com/magicblock-labs/magicblock-engine-examples/blob/main/anchor-counter/programs/anchor-counter/src/lib.rs) - here the `delegate_account` [here](https://github.com/magicblock-labs/ephemeral-rollups-sdk/blob/34e2a77ef732b728ea810eb3d212a5507229c034/sdk/src/cpi.rs#L16), ``undelegeate_account` and `commit_account` [here](https://github.com/magicblock-labs/ephemeral-rollups-sdk/blob/34e2a77ef732b728ea810eb3d212a5507229c034/sdk/src/er.rs#L8) might come in handy.
+- [MagicBlock Engine Example](https://github.com/magicblock-labs/magicblock-engine-examples/blob/main/anchor-counter/programs/anchor-counter/src/lib.rs) - here the `delegate_account` [here](https://github.com/magicblock-labs/ephemeral-rollups-sdk/blob/34e2a77ef732b728ea810eb3d212a5507229c034/sdk/src/cpi.rs#L16), `undelegeate_account` and `commit_account` [here](https://github.com/magicblock-labs/ephemeral-rollups-sdk/blob/34e2a77ef732b728ea810eb3d212a5507229c034/sdk/src/er.rs#L8) might come in handy.
 - [Docker Image](https://hub.docker.com/r/magicblocklabs/validator) its <48MB 
 - Once the container is up add [these](https://github.com/magicblock-labs/magicblock-engine-examples/blob/3b8fdd9690ebe260c92eaf444dc45ae7e4aa5ccd/anchor-counter/tests/anchor-counter.ts#L17) to the env file 
 - It includes SVM, RPC, WebSocket, and Geyser RPC - [reference](https://x.com/PiccoGabriele/status/1824435153575575875)
